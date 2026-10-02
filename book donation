@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head><h1>BOOK DONATION FORM</h1></head>
+<body>
+<form>
+ 
+ <fieldset
+ legend="DONOR DETAILS"
+ <label type="name"</label>
+ <label type="password"</label>
+ <label type="date" </label>
+</fieldset>
+ <br>
+ <fieldset
+ legend="BOOK DETAILS"
+ <select><option value="CONDITION"></option>
+    <button>radio</button>
+ <input=new>
+ <input=good>
+ <input=used>
+ </fieldset>
+  <br>
+<select><option value="BOOK CATEGORY"></option> 
+    <button>radio</button>
+ <input=fiction>
+ <input=science>
+ <input=education>
+ <input=biography>
+ </fieldset>
+ <br>
+ <fieldset
+ <label>anything to note</label>
+ <textarea cols="30" rows="5>
+ </textarea>
+ </fieldset>
+ <br>
+ <fieldset
+ <legend="DROP OFF DAYS">
+ <button>checkboxes</button>
+ <input=TUESDAY>
+ <input=THURSDAY>
+ <input=SATURDAY>
+</form
+</body>
+</html>
+
