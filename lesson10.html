@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Weather App Homepage</title>
+
+  <style>
+    /* universal selector */
+    *{
+       box-sizing: border-box;
+      font-family: Arial, sans-serif; 
+    }
+    /* body background */
+    body{
+      background-color: green;
+      background-image: radial-gradient(square,blue 4px,transparent 7px;
+      background-size: 70px 70px;
+      background-repeat: repeat;
+      background-position: top center;
+      background-attachment: fixed;
+      color: yellow;
+      text-align: left;
+    }
+
+    h1{
+        font-size: 45px;
+        color:brown;
+    }
+    .subtitle {
+      font-size: 30px;
+      color:beige;
+    }
+    .weather-card{
+      width: 600px;
+      border: 3px solid gray;
+      border-radius: 40px;
+      background-image: linear-gradient(to bottom right,purple,coral;)
+    }
+    .weather-icon{
+      font-size: 45px;
+      animation: floatCloud 5s infinite alternate;  
+    }
+    #temprature{
+      font-size: 36px;
+      font-weight: bold;
+      color: whitesmoke;
+    }
+    .details{
+        font-size: 36px;
+        color:azure;
+    }
+    .forecast-section{
+        width: 400px;
+        border: 3px solid gold;
+        border-radius: 10px;
+        background-image: radial-gradient(circle, white, lightblue);
+        color: aqua;
+    }
+    .forecast-title{
+        color:blueviolet;
+    }
+    .day{
+        border: 8px solid black;
+        font-size: 40px;
+        color:beige;
+    }
+    /* group selector */
+    h2, h3{
+        color:chocolate;
+    }
+    /* CSS animation */
+    @keyframes floatCloud {
+      from {
+        transform: translateY(0);
+      }
+ 
+      to {
+        transform: translateY(20px);
+      }
+    }
+    </style>
+    </head>
+
+    <body>
+
+      <h2>My Weather App Homepage</h2>
+      <p class="subtitle">
+        KNOW TODAY'S WEATHER
+      </p>
+
+      <div class="weather-card">
+        <h4>Today's weather</h4>
+
+        <div class="weather-icon">CLOUD</div>
+
+        <p id="temprature">30°C</p>
+
+        <p class="day">monday: cloudy-24°C</p>
+        <p class="day">Tuesday: sunny - 34°C</p>
+        <p class="day">Wednesday: Rainy - 25°C</p>
+        <p class="day">Thursday: sunny - 36°C</p>
+        <p class="day">Friday: Stormy - 23°C</p>
+        </div>
+
+    </body>
+    </html>
+
+        
+        
+    
