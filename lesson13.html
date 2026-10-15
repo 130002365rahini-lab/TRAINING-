@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Ice Cream Shop Menu</title>
+  <style>
+    body {
+        font-family: 'Times New Roman', Times;
+        background-color:cadetblue;
+        text-align: center;
+        color:aliceblue;
+    }
+    h1 {
+        color:brown;
+        font-size: 40px;
+    }
+    h1 + p {
+        color:beige;
+        font-weight: bold;
+        background-color: aquamarine;
+        border-radius: 12px;
+    }
+    .shop-description::first-letter {
+        font-size: 40px;
+        color:chocolate;
+        font-weight: bold;
+    }
+    .menu-box {
+        width: 400px;
+        background-color: chartreuse;
+        border:5px solid  blueviolet;
+        border-radius: 10px;
+        margin: 15px auto;
+        padding:15px;
+    }
+    ul {
+        padding: 0;
+    }
+    ul > li {
+        list-style: none;
+        background-color:gray;
+        color:blue;
+        font-size: 28px;
+        font-weight: bold;
+        margin: 15px;
+        padding: 18px;
+        border-radius: 15px;
+        border: 4px solid darkgoldenrod;
+    }
+    ul > :nth-child(3) {
+        background-color: coral;
+        color:crimson;
+        border:4px solid gold;
+    }
+    ul > li:hover {
+        background-color: silver;
+        color: black;
+        cursor: pointer;
+        transform: scale(2.5);
+    }
+    button {
+        background-color: lightpink;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        padding: 10px 20px;
+        font-size: 26px;
+        font-weight: bold;
+    }
+    button:hover {
+        background-color: darkmagenta;
+    }
+  </style>
+</head>
+<body>
+    <h2>MY ICE CREAM SHOP MENU</h2>
+    <p>taste the excellence</p>
+    <p class="shop-description">
+        we serve wonderful scoops
+    </p>
+    <div class="menu-box">
+        <h3>TODAY'S SCOOPS!</h3>
+        <ul>
+            <li>chocolate crown</li>
+            <li>super stawberry</li>
+            <li>vanilla vibes-today's special</li>
+            <li>maddy mango</li>
+            <li>cookie and cream</li>
+        </ul>
+        <button>ORDER NOW</button>
+     </div>
+</body>  
+</html>  
+
+    
+
+    
