@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Zoo Rescue Tracker</title>
+  <style>
+    body {
+        font-family: 'Courier New', Courier, monospace;
+        background: lightseagreen;
+        padding: 15px;
+        padding-top: 50px;
+        min-height: 1500px;
+    }
+
+    h1, h2 {
+        color: white;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .alert {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background:lightcoral;
+        color: whitesmoke;
+        padding: 25px;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .animal {
+        background: yellow;
+        border: 4px solid purple;
+        padding: 15px;
+        margin: 10px 0;
+        width: 200px;
+    }
+
+    .moved {
+        position: relative;
+        left: 45px;
+        background: lightblue;
+    }
+
+    .card {
+        position: relative;
+        background: goldenrod;
+        border: 6px solid #52b788;
+        border-radius: 20px;
+        padding: 15px;
+        width: 250px;
+        text-align: center;
+    }
+
+    .tag {
+        position: absolute;
+        top: -15px;
+        right: -15px;
+        background: silver;
+        color: blueviolet;
+        padding: 8px 12px;
+        border-radius: 30px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .zone {
+        position: sticky;
+        top: 30px;
+        background: red;
+        color: lightyellow;
+        padding: 20px;
+        margin-top: 30px;
+        font-weight: bold;
+    }
+
+    code {
+        background: indigo;
+        color: aqua;
+        padding: 4px 7px;
+        border-radius: 12px;
+    }
+   </style>
+ </head>
+
+ <body>
+    <div class="alert">EMERGENCY-TEAM TAKE CHARGE!</div>
+
+    <h1>Zoo Rescue Tracker</h1>
+    <p style="text-align:center;">Protect animals.They are our friends.</p>
+
+    <h2>Places to visit</h2>
+    <p>Our goal is to save all the animals.</p>
+    <div class="animal">PANDA:Tree zone</div>
+    <div class="animal">TIGER:Forest zone</div>
+    <div class="animal">HIPPO:Water zone</div>
+
+    <h2>To do</h2>
+    <p>Do all your duties properly.</p>
+    <div class="animal moved">CHEETAH:It is alright</div>
+    <div class="animal">PENGUIN:Leg injury</div>
+    <div class="animal">CAMEL:Pending doctor appointment</div>
+
+    <h2>Check-up results</h2>
+    <div class="card">
+        CAMEL:Will take 3 days for the injury to heal.<br>
+        PENGUIN:It is fine.<br>
+        <div class="tag">HEALTHY!</div>
+    </div>
+
+    <h2>Release results</h2>
+    <div class="case">Panda:released</div><br>
+    <div class="case">Tiger:feeding</div><br>
+    <div class="case">Hippo:taking medicine</div><br>
+    <div class="case">Cheetah:released</div><br>
+    <div class="case">Penguin:cured</div><br>
+    <div class="case">Camel:under medication</div><br>
+
+    <p>Congrats team!All our animals are <code>Safe</code></p>
+  </body>
+</html>
+
+
+    
+ 
