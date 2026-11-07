@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Study Progress Dashboard</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <style>
+    body {
+        background-color: lightseagreen;
+        font-family: Arial, sans-serif; 
+    }
+    .jumbotron { 
+        background-color: #e8edff;
+        border-left: 6px solid #FF5A43; 
+    }
+    .jumbotron h1 { 
+        color: #FF5A43; 
+    }
+    .section-title { 
+        color: #FF5A43; 
+        margin-top: 30px; 
+        margin-bottom: 15px; 
+    }
+        p { 
+        font-weight: bold;
+        margin-bottom: 5px;
+        }
+  </style>
+</head>
+<body>
+
+    <div class="container">
+      <h1>My Study Progress Dashboard</h1>
+      <p class="lead">Know what you are learning.</p>
+
+      
+      <button class="btn btn-info">physics</button>
+      <button class="btn btn-light">chemistry</button>
+      <button class="btn btn-success">biology</button>
+      <button class="btn btn-danger">zoology</button>
+    </div>
+  </div>
+
+  <div class="container">
+
+    
+    <h2 class="section-title">Lessons done <span class="badge badge-danger">15</span></h2>
+
+    <p>physics <span class="badge badge-dark">4 lessons</span></p>
+    <p>chemistry <span class="badge badge-info">6 lessons</span></p>
+    <p>biology <span class="badge badge-success">3 lessons</span></p>
+    <p>zoology <span class="badge badge-warning">2 lessons</span></p>
+
+    
+    <h2 class="section-title">progress</h2>
+
+    <p>physics</p>
+    <div class="progress mb-3">
+      <div class="progress-bar bg-info" style="width: 60%">60%</div>
+    </div>
+
+    <p>chemistry</p>
+    <div class="progress mb-3">
+      <div class="progress-bar bg-dark" style="width: 75%">75%</div>
+    </div>
+
+    <p>biology</p>
+    <div class="progress mb-3">
+      <div class="progress-bar bg-warning" style="width: 40%">40%</div>
+    </div>
+
+    <p>zoology</p>
+    <div class="progress mb-3">
+      <div class="progress-bar bg-danger" style="width: 30%">30%</div>
+    </div>
+
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
+    
