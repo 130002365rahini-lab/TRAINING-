@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head><title>My Phone Contact</title></head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    rel="stylesheet">
+    <style>
+        body {
+            background-color: lightgray;
+        }
+        .my phone-contact {
+            color:orange;
+        }
+        .card-label {
+            color: blue;
+            font-size: bold;
+            text-transform: capitalize;
+        }
+    </style>
+    <body class="by-4">
+        <div class="container">
+            <h1 class="mb-1">contacts</h1>
+            <p class="text-muted mb-4">contacts make it eay to access.</p>
+            <div class="card shadow-sm mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">contact card</h5>
+                    <ul>
+                        <li>name-David</li>
+                        <li>phone-99857-64329</li>
+                        <li>school-St.mary</li>
+                        <li>city-Maharashtra</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script>
+            var mycontact ={
+                name:"David",
+                phone:99857-64329,
+                school:"St.mary",
+                city:"Maharashtra"
+            };
+            nameEl.textcontact=mycontact.name;
+            phoneEl.textcontact=mycontact.phone;
+            myContact["school"]   // gives "Sunrise Academy"
+            myContact["city"]     // gives "Mumbai"
+
+            var schoolEl = document.getElementById("school");
+            var cityEl   = document.getElementById("city");
+            schoolEl.textContent = myContact["school"];
+            cityEl.textContent   = myContact["city"];
+            document.getElementById("codeDisplay");
+        </script>
+    </body>
+</html>
